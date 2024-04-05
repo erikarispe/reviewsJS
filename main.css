@@ -1,0 +1,53 @@
+body {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white for better contrast */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Specify font family */
+}
+
+
+.container {
+    width: 400px; /* Width of the box */
+    height: 300px; /* Height of the box */
+    border: 10px solid #333; /* Border around the box */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 20px;
+    border-color: lightblue;
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: space-between; /* Add space between children */
+}
+
+.buttons {
+    align-self: center;
+    color: white; /* Set text color to white */
+   
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease
+
+    
+   }
+
+.buttons :hover {
+    background-color: lightblue;
+}
+ 
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+.forms :hover {
+    background-color: lightblue;
+}
